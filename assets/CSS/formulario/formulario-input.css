@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+
+.formulario__input {
+    border: 3px solid #6C63FF;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 48px;    
+}
+
+@media screen and (min-width: 0) {
+    .formulario__input {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario__input {
+        width: 502px;
+        height: 60px;
+    }
+}

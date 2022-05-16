@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+
+.formulario__botao {
+
+    background-color: black;
+    color: #6C63FF;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 110px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 0) {
+    .formulario__botao {
+        height: 50px;
+        text-align: center;
+        width: 70vw;
+        font-size: 24px;
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario__botao {
+        width: 502px;
+        height: 60px;
+        font-size: 36px;
+        margin-bottom: 300px;
+    }
+}
