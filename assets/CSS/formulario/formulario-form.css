@@ -1,0 +1,20 @@
+.formulario__form {
+    display: flex;
+    
+}
+
+@media screen and (min-width: 0) {
+    .formulario__form {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formulario__form {
+        flex-direction: row;
+        padding: 0 15rem;
+        margin-top: 150px;        
+    }
+}

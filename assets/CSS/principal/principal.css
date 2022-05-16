@@ -1,0 +1,18 @@
+.principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 0) {
+    .principal {
+        flex-direction: column;
+        padding-top: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .principal {
+        flex-direction: row;
+        padding-top: 5rem;
+    }
+}
